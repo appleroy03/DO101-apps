@@ -5,8 +5,8 @@ app.get('/', function (req, res) {
   res.send('Hello World - welcome!\n');
 });
 
-app.get('/mars', function (req, res) {
-  res.send('Hello Mars @@!\n');
+app.get('/venus', function (req, res) {
+  res.send('Hello Venus @@!\n');
 });
 
 app.get('/mars', function (req, res) {
